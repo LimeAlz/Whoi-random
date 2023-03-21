@@ -1,0 +1,87 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo{
+    height: 80px;;
+}
+
+.title{
+    font-size: 36px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.listing>ul{
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+    margin-right: 35px;
+  
+}
+
+.listing>ul>li>a{
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+}
+
+content{
+    display: flex;
+    padding: 50px;
+    gap: 100px;
+}
+.canvas{
+    height: 500px;
+    width:400px;
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+#img-load{
+    height: 400px;
+    width: 400px;
+}
+
+.text{
+    height: 100px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    background-color: antiquewhite;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    /* align-self: center; */
+}
+
+.text>p{
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.choice{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
